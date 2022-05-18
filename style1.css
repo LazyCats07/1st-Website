@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Montserrat:wght@400;500&display=swap');
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+*{
+   box-sizing: border-box;
+}
+ main{
+    padding: 20px;
+    overflow: auto;
+ }
+  
+ h2 {
+    color: #15133C
+ }
+  
+ h3 {
+    color: #15133C;
+    opacity: 0.8;
+ }
+
+  
+ footer{
+    padding: 20px;
+    color: white;
+    background-color: #73777B;
+    opacity: 0.5;
+    /* 0.5 = 50% -> opacity yang dihasilkan */
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 18px;
+ }
+
+ nav a:hover{
+    font-weight: bold;
+ }
+
+ .profile{
+    text-align: center;
+ }
+
+ /* p {
+   color: red !important;
+}
+
+p {
+   color: blue;
+} */
+
+
+
+/* BELAJAR MILIH COLOR */
+/* p {
+   color: rgba(78,231,23, 0.5);
+   color: hsla(104, 82%, 50%, 0.5);
+   color: #4ee717ee; /*ee merupakan digit tambahan untuk menerapkan opacity
+} */
+
+
+.featured-image {
+   width: 100%;
+   max-height: 400px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   box-sizing: border-box;
+   background-color: #F1EEE9;
+}
+
+.jumbotron{
+   font-size: 20px;
+   padding: 60px;
+   background-color: #56595c;
+   text-align: center;
+   color: white;
+}
+
+nav li{
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+   
+}
+
+nav {
+   background-color: #15133C;
+   padding: 5px;
+   border-radius: 5px;
+   position: sticky;
+   top: 0;
+   
+}
+
+header{
+   display: inline;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   
+}
+
+aside header{
+   text-align: center;
+}
+#content{
+   float: left;
+   width: 75%;
+}
+
+aside{
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+.data-diri{
+
+   font-weight: bold;
+
+}
+
+.moto-hidup{
+   font-weight: bold;
+}
+
+.biodata{
+   margin-top: 30px;
+   
+}
+
+.featured-image-profile{
+   width: 50%;
+   max-height: 400px;
+   object-fit: cover;
+   
+   
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+
